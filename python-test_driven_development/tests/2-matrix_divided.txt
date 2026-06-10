@@ -17,6 +17,10 @@ Division by float:
 >>> matrix_divided([[2, 4]], 2.0)
 [[1.0, 2.0]]
 
+Division by infinity:
+>>> matrix_divided([[1, 2], [3, 4]], float('inf'))
+[[0.0, 0.0], [0.0, 0.0]]
+
 Invalid matrix element:
 >>> matrix_divided([[1, "2"]], 2)
 Traceback (most recent call last):
