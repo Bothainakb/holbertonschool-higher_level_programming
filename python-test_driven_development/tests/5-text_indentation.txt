@@ -4,22 +4,23 @@ This file tests the text_indentation function.
 
 >>> text_indentation("Hello. How are you?")
 Hello.
-
+<BLANKLINE>
 How are you?
+<BLANKLINE>
 
 >>> text_indentation("Python: easy.")
 Python:
-
+<BLANKLINE>
 easy.
-
->>> text_indentation("  Hello.   World?  ")
-Hello.
-
-World?
-
->>> text_indentation("")
 <BLANKLINE>
 
+>>> text_indentation(" Hello. World? ")
+Hello.
+<BLANKLINE>
+World?
+<BLANKLINE>
+
+>>> text_indentation("")
 >>> text_indentation(12)
 Traceback (most recent call last):
 ...
@@ -32,7 +33,8 @@ TypeError: text_indentation() missing 1 required positional argument: 'text'
 
 >>> text_indentation("One. Two: Three?")
 One.
-
+<BLANKLINE>
 Two:
-
+<BLANKLINE>
 Three?
+<BLANKLINE>
