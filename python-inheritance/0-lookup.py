@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that defines a function to list an object's attributes and methods."""
+"""Module that defines the lookup function."""
 
 
 def lookup(obj):
