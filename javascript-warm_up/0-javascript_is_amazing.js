@@ -1,7 +1,5 @@
 #!/usr/bin/node
 
-function add (a, b) {
-  return a + b;
-}
+const myVar = 'JavaScript is amazing';
 
-module.exports = { add: add };
+console.log(myVar);
